@@ -1,0 +1,62 @@
+html{
+    background-color: aquamarine;
+}
+body{
+font-family: Verdana;
+display: flex;
+}
+header{
+background-color: brown;
+box-sizing: border-box;
+border: 2px solid black;
+padding: 20px;
+margin: 20px;
+border-radius: 4px;
+width: 100%;
+height: 400px;
+}
+#button1{
+background-color: orange;
+padding: 15px 10px;
+width: 100px;
+}
+#button1:hover{
+background-color: black;
+color: red;
+}
+#button2{
+background-color: orange;
+padding: 15px 10px;
+}
+#button2:active{
+background-color: black;
+color: red;
+}
+input, textarea{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+}
+main{
+background-color:aqua;
+box-sizing: border-box;    
+border: 2px solid black;
+padding: 20px;
+margin: 20px;
+border-radius: 4px;
+width: 100%;
+height: 400px;
+}
+footer{
+    box-sizing: border-box; 
+    background-color: blueviolet;
+    border: 2px solid black;
+padding: 20px;
+margin: 20px;
+border-radius: 4px;
+width: 100%;
+height: 400px;
+}
